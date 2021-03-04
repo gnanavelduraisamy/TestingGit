@@ -1,0 +1,445 @@
+{
+  "googleAnalyticsEvents": [
+    {
+      "eventKey": "EventLoginSignup",
+      "eventScreen": "SignUp",
+      "eventCategory": "SignUp",
+      "eventAction": "Sign up click",
+      "eventLabel": "SIGN UP",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventDashboardOrderNow",
+      "eventScreen": "Dashboard",
+      "eventCategory": "Dashboard",
+      "eventAction": "Dashboard item click",
+      "eventLabel": "Order Now",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventSideDrawerItem",
+      "eventScreen": "SideDrawer",
+      "eventCategory": "SideDrawer",
+      "eventAction": "SideDrawer item click",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective side drawer menu name"
+    },
+    {
+      "eventKey": "EventSideDrawerSignIn",
+      "eventScreen": "SideDrawer",
+      "eventCategory": "SideDrawer",
+      "eventAction": "Side drawer item click",
+      "eventLabel": "SIGN IN",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventSideDrawerSignUp",
+      "eventScreen": "SideDrawer",
+      "eventCategory": "SideDrawer",
+      "eventAction": "Side drawer item click",
+      "eventLabel": "SIGN UP",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventMessageDelete",
+      "eventScreen": "Message",
+      "eventCategory": "Message",
+      "eventAction": "Message delete",
+      "eventLabel": "DELETE",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventMessageOpen",
+      "eventScreen": "Message",
+      "eventCategory": "Message",
+      "eventAction": "Message item click",
+      "eventLabel": "Open message",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventMessageSurvey",
+      "eventScreen": "Message",
+      "eventCategory": "Message",
+      "eventAction": "Message item click",
+      "eventLabel": "Survey",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventMessageExternalLink",
+      "eventScreen": "Message",
+      "eventCategory": "Message",
+      "eventAction": "Message item click",
+      "eventLabel": "External Link",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventSurveyTake",
+      "eventScreen": "Survey",
+      "eventCategory": "Message",
+      "eventAction": "Take survey click",
+      "eventLabel": "TAKE SURVEY",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventSurveySubmit",
+      "eventScreen": "Survey",
+      "eventCategory": "Message",
+      "eventAction": "Submit survey click",
+      "eventLabel": "SUBMIT",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventOrderTypeSelectionAddAddress",
+      "eventScreen": "Delivery Address",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Add address click",
+      "eventLabel": "ADD ADDRESS",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventOrderTypeSelectionAddAddressContinue",
+      "eventScreen": "Delivery Address",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Add address continue click",
+      "eventLabel": "CONTINUE",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventOrderTypeSelectionAddressItem",
+      "eventScreen": "Delivery Address",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Delivery address click",
+      "eventLabel": "Choose Address",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventLocation",
+      "eventScreen": "Location",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Location list item click",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective store name"
+    },
+    {
+      "eventKey": "EventStoreInfoCall",
+      "eventScreen": "StoreInfo",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "List item click",
+      "eventLabel": "Call",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventStoreInfoDirections",
+      "eventScreen": "StoreInfo",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "List item click",
+      "eventLabel": "Directions",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventMenuItem",
+      "eventScreen": "Menu",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Menu item click",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective menu name"
+    },
+    {
+      "eventKey": "EventMenuDetails",
+      "eventScreen": "Menu",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Details button click",
+      "eventLabel": "DETAILS",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventMenuReviewBasket",
+      "eventScreen": "Menu",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Review basket click",
+      "eventLabel": "REVIEW BASKET",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventSubMenuItem",
+      "eventScreen": "SubMenu",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Sub menu item click",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective sub menu name"
+    },
+    {
+      "eventKey": "EventModifierCategory",
+      "eventScreen": "Modifier",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Category selection",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective category name"
+    },
+    {
+      "eventKey": "EventModifierBuyNow",
+      "eventScreen": "Modifier",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Buy now click",
+      "eventLabel": "BUY NOW",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventModifierAddToBasket",
+      "eventScreen": "Modifier",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Add to basket click",
+      "eventLabel": "ADD TO BASKET",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketStoreEdit",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Edit store click",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective store name"
+    },
+    {
+      "eventKey": "EventBasketOrderType",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Order type click",
+      "eventLabel": "Order Type",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketWhen",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "When click",
+      "eventLabel": "When",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketEditDelivery",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Delivery address click",
+      "eventLabel": "Edit Address",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketRewards",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Rewards click",
+      "eventLabel": "Apply Rewards",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketEditRewards",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Rewards edit Click",
+      "eventLabel": "Edit Rewards",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketAddMoreItems",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Add more click",
+      "eventLabel": "ADD MORE ITEMS",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketCheckout",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Checkout click",
+      "eventLabel": "CHECKOUT",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketOrderTypeApply",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Order type apply click",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective order type DELIVERY/CURBSIDE/PICKUP"
+    },
+    {
+      "eventKey": "EventBasketWhenApply",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "When apply click",
+      "eventLabel": "LATER",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketStartOrder",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Start order click",
+      "eventLabel": "START ORDER",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketItemDelete",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Basket item delete click",
+      "eventLabel": "DELETE",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventVehicleContinue",
+      "eventScreen": "Vehicle Information",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Vehicle information continue click",
+      "eventLabel": "CONTINUE",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventPhoneNumberContinue",
+      "eventScreen": "Phone Number",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Phone number continue click",
+      "eventLabel": "CONTINUE",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventGuestInfoContinue",
+      "eventScreen": "Guest Info",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Guest info continue click",
+      "eventLabel": "CONTINUE",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventPaymentOption",
+      "eventScreen": "Payment Option",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Payment option click",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective payment option"
+    },
+    {
+      "eventKey": "EventPaymentOptionContinue",
+      "eventScreen": "Payment Option",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Payment option continue click",
+      "eventLabel": "CONTINUE",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventCardDetailsAddNewCard",
+      "eventScreen": "Card Details",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Add new card click",
+      "eventLabel": "ADD NEW CARD",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventCardDetailsPay",
+      "eventScreen": "Card Details",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Pay click",
+      "eventLabel": "PAY",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventCardDetailsAddNewCardContinue",
+      "eventScreen": "Card Details",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Add new card click",
+      "eventLabel": "CONTINUE",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventPlaceOrderAddTip",
+      "eventScreen": "Place Order",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Add tip click",
+      "eventLabel": "ADD TIP",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventPlaceOrderContinue",
+      "eventScreen": "Place Order",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Place order click",
+      "eventLabel": "PLACE ORDER",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventOrderPlacedStore",
+      "eventScreen": "Order Placed",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Order placed store click",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective store name"
+    },
+    {
+      "eventKey": "EventOrderPlacedFeedback",
+      "eventScreen": "Order Placed",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Order placed feedback click",
+      "eventLabel": "Give Direct Feedback",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventOrderPlacedReviewUs",
+      "eventScreen": "Order Placed",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Order placed review us click",
+      "eventLabel": "Review Us",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    }
+  ]
+}
