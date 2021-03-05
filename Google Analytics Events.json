@@ -1,15 +1,6 @@
 {
   "googleAnalyticsEvents": [
     {
-      "eventKey": "EventLoginSignin",
-      "eventScreen": "SignIn",
-      "eventCategory": "SignIn",
-      "eventAction": "Signin click",
-      "eventLabel": "SIGN IN",
-      "eventIsRequireLable": false,
-      "eventDescription": ""
-    },
-    {
       "eventKey": "EventLoginSigninForgotPassword",
       "eventScreen": "SignIn",
       "eventCategory": "SignIn",
@@ -32,15 +23,6 @@
       "eventScreen": "SignIn",
       "eventCategory": "SignUp",
       "eventAction": "Signin signup click",
-      "eventLabel": "SIGN UP",
-      "eventIsRequireLable": false,
-      "eventDescription": ""
-    },
-    {
-      "eventKey": "EventSignup",
-      "eventScreen": "SignUp",
-      "eventCategory": "SignUp",
-      "eventAction": "Signup click",
       "eventLabel": "SIGN UP",
       "eventIsRequireLable": false,
       "eventDescription": ""
