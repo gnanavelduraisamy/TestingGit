@@ -31,7 +31,7 @@
       "eventKey": "EventSideDrawerItem",
       "eventScreen": "SideDrawer",
       "eventCategory": "SideDrawer",
-      "eventAction": "SideDrawer item click",
+      "eventAction": "Side drawer item click",
       "eventLabel": "",
       "eventIsRequireLable": true,
       "eventDescription": "Respective side drawer menu name"
@@ -121,7 +121,7 @@
       "eventKey": "EventDashboardSinginOrSignup",
       "eventScreen": "Dashboard",
       "eventCategory": "Dashboard",
-      "eventAction": "Dashboard singin signup click",
+      "eventAction": "Dashboard signin signup click",
       "eventLabel": "SIGN IN or SIGN UP to earn rewards",
       "eventIsRequireLable": false,
       "eventDescription": ""
@@ -272,7 +272,7 @@
     },
     {
       "eventKey": "EventModifierCategory",
-      "eventScreen": "Modifier",
+      "eventScreen": "Item Modifier",
       "eventCategory": "OnlineOrder",
       "eventAction": "Category selection",
       "eventLabel": "",
@@ -281,7 +281,7 @@
     },
     {
       "eventKey": "EventModifierBuyNow",
-      "eventScreen": "Modifier",
+      "eventScreen": "Item Modifier",
       "eventCategory": "OnlineOrder",
       "eventAction": "Buy now click",
       "eventLabel": "BUY NOW",
@@ -337,7 +337,7 @@
       "eventKey": "EventBasketWhenApplyLater",
       "eventScreen": "Basket",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Baket when apply click",
+      "eventAction": "Basket when apply click",
       "eventLabel": "LATER",
       "eventIsRequireLable": false,
       "eventDescription": ""
@@ -410,7 +410,7 @@
       "eventScreen": "Vehicle Information",
       "eventCategory": "OnlineOrder",
       "eventAction": "Vehicle information continue click",
-      "eventLabel": "CONTINUE",
+      "eventLabel": "Vehicle information continue",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -428,7 +428,7 @@
       "eventScreen": "Phone Number",
       "eventCategory": "OnlineOrder",
       "eventAction": "Phone number continue click",
-      "eventLabel": "CONTINUE",
+      "eventLabel": "Phone number continue click",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -437,7 +437,7 @@
       "eventScreen": "Guest Info",
       "eventCategory": "OnlineOrder",
       "eventAction": "Guest info continue click",
-      "eventLabel": "CONTINUE",
+      "eventLabel": "Guest info continue",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -455,7 +455,7 @@
       "eventScreen": "Payment Option",
       "eventCategory": "OnlineOrder",
       "eventAction": "Payment option continue click",
-      "eventLabel": "CONTINUE",
+      "eventLabel": "Payment option continue",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -472,8 +472,8 @@
       "eventKey": "EventCardDetailsAddNewCardContinue",
       "eventScreen": "Card Details",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Add new card click",
-      "eventLabel": "CONTINUE",
+      "eventAction": "Add new card continue click",
+      "eventLabel": "Add new card continue",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
