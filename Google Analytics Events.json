@@ -136,11 +136,11 @@
       "eventDescription": ""
     },
     {
-      "eventKey": "EventDashboardPendingCurbsidePickup",
+      "eventKey": "EventDashboardPendingCurbsideOrder",
       "eventScreen": "Dashboard",
       "eventCategory": "Dashboard",
-      "eventAction": "Dashboard pending curbside pickup click",
-      "eventLabel": "PENDING CURBSIDE PICKUP",
+      "eventAction": "Dashboard pending curbside order click",
+      "eventLabel": "PENDING CURBSIDE ORDER",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
