@@ -1,20 +1,29 @@
 {
   "googleAnalyticsEvents": [
     {
-      "eventKey": "EventLoginSignup",
-      "eventScreen": "SignUp",
-      "eventCategory": "SignUp",
-      "eventAction": "Sign up click",
-      "eventLabel": "SIGN UP",
+      "eventKey": "EventLoginSigninForgotPassword",
+      "eventScreen": "SignIn",
+      "eventCategory": "SignIn",
+      "eventAction": "Forgot password click",
+      "eventLabel": "Forgot Password?",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
     {
-      "eventKey": "EventDashboardOrderNow",
-      "eventScreen": "Dashboard",
-      "eventCategory": "Dashboard",
-      "eventAction": "Dashboard item click",
-      "eventLabel": "Order Now",
+      "eventKey": "EventLoginSigninSkip",
+      "eventScreen": "SignIn",
+      "eventCategory": "SignIn",
+      "eventAction": "Signin skip click",
+      "eventLabel": "Skip",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventLoginSignup",
+      "eventScreen": "SignIn",
+      "eventCategory": "SignUp",
+      "eventAction": "Signin signup click",
+      "eventLabel": "SIGN UP",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -22,7 +31,7 @@
       "eventKey": "EventSideDrawerItem",
       "eventScreen": "SideDrawer",
       "eventCategory": "SideDrawer",
-      "eventAction": "SideDrawer item click",
+      "eventAction": "Side drawer item click",
       "eventLabel": "",
       "eventIsRequireLable": true,
       "eventDescription": "Respective side drawer menu name"
@@ -100,6 +109,60 @@
       "eventDescription": ""
     },
     {
+      "eventKey": "EventDashboardOrderNow",
+      "eventScreen": "Dashboard",
+      "eventCategory": "Dashboard",
+      "eventAction": "Dashboard order now click",
+      "eventLabel": "Order Now",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventDashboardSinginOrSignup",
+      "eventScreen": "Dashboard",
+      "eventCategory": "Dashboard",
+      "eventAction": "Dashboard signin signup click",
+      "eventLabel": "SIGN IN or SIGN UP to earn rewards",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventDashboardPay",
+      "eventScreen": "Dashboard",
+      "eventCategory": "Dashboard",
+      "eventAction": "Dashboard Pay click",
+      "eventLabel": "Pay",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventDashboardPendingCurbsideOrder",
+      "eventScreen": "Dashboard",
+      "eventCategory": "Dashboard",
+      "eventAction": "Dashboard pending curbside order click",
+      "eventLabel": "PENDING CURBSIDE ORDER",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventOrderTypeSelectionPickup",
+      "eventScreen": "Details",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Order type selection click",
+      "eventLabel": "PICKUP",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventOrderTypeSelectionCurbside",
+      "eventScreen": "Details",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Order type selection click",
+      "eventLabel": "CURBSIDE",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
       "eventKey": "EventOrderTypeSelectionAddAddress",
       "eventScreen": "Delivery Address",
       "eventCategory": "OnlineOrder",
@@ -136,37 +199,55 @@
       "eventDescription": "Respective store name"
     },
     {
+      "eventKey": "EventLocationFilter",
+      "eventScreen": "Location",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Location filter click",
+      "eventLabel": "FILTER",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventLocationFilterApply",
+      "eventScreen": "Location",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Location filter apply click",
+      "eventLabel": "APPLY",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
       "eventKey": "EventStoreInfoCall",
       "eventScreen": "StoreInfo",
       "eventCategory": "OnlineOrder",
-      "eventAction": "List item click",
+      "eventAction": "Store info call click",
       "eventLabel": "Call",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
     {
-      "eventKey": "EventStoreInfoDirections",
+      "eventKey": "EventStoreInfoDirection",
       "eventScreen": "StoreInfo",
       "eventCategory": "OnlineOrder",
-      "eventAction": "List item click",
-      "eventLabel": "Directions",
+      "eventAction": "Store info direction click",
+      "eventLabel": "Direction",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
     {
-      "eventKey": "EventMenuItem",
+      "eventKey": "EventMenuListItem",
       "eventScreen": "Menu",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Menu item click",
+      "eventAction": "Menu list item click",
       "eventLabel": "",
       "eventIsRequireLable": true,
       "eventDescription": "Respective menu name"
     },
     {
-      "eventKey": "EventMenuDetails",
+      "eventKey": "EventMenuStoreDetails",
       "eventScreen": "Menu",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Details button click",
+      "eventAction": "Menu store details click",
       "eventLabel": "DETAILS",
       "eventIsRequireLable": false,
       "eventDescription": ""
@@ -175,23 +256,23 @@
       "eventKey": "EventMenuReviewBasket",
       "eventScreen": "Menu",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Review basket click",
+      "eventAction": "Menu review basket click",
       "eventLabel": "REVIEW BASKET",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
     {
-      "eventKey": "EventSubMenuItem",
+      "eventKey": "EventSubMenuListItem",
       "eventScreen": "SubMenu",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Sub menu item click",
+      "eventAction": "Sub menu list item click",
       "eventLabel": "",
       "eventIsRequireLable": true,
       "eventDescription": "Respective sub menu name"
     },
     {
       "eventKey": "EventModifierCategory",
-      "eventScreen": "Modifier",
+      "eventScreen": "Item Modifier",
       "eventCategory": "OnlineOrder",
       "eventAction": "Category selection",
       "eventLabel": "",
@@ -200,7 +281,7 @@
     },
     {
       "eventKey": "EventModifierBuyNow",
-      "eventScreen": "Modifier",
+      "eventScreen": "Item Modifier",
       "eventCategory": "OnlineOrder",
       "eventAction": "Buy now click",
       "eventLabel": "BUY NOW",
@@ -217,10 +298,10 @@
       "eventDescription": ""
     },
     {
-      "eventKey": "EventBasketStoreEdit",
+      "eventKey": "EventBasketEditStore",
       "eventScreen": "Basket",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Edit store click",
+      "eventAction": "Basket edit store click",
       "eventLabel": "",
       "eventIsRequireLable": true,
       "eventDescription": "Respective store name"
@@ -229,17 +310,35 @@
       "eventKey": "EventBasketOrderType",
       "eventScreen": "Basket",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Order type click",
+      "eventAction": "Basket order type click",
       "eventLabel": "Order Type",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
     {
+      "eventKey": "EventBasketOrderTypeApply",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Basket order type apply click",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective order type DELIVERY/CURBSIDE/PICKUP"
+    },
+    {
       "eventKey": "EventBasketWhen",
       "eventScreen": "Basket",
       "eventCategory": "OnlineOrder",
-      "eventAction": "When click",
+      "eventAction": "Basket when click",
       "eventLabel": "When",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketWhenApplyLater",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Basket when apply click",
+      "eventLabel": "LATER",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -247,7 +346,7 @@
       "eventKey": "EventBasketEditDelivery",
       "eventScreen": "Basket",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Delivery address click",
+      "eventAction": "Basket edit address click",
       "eventLabel": "Edit Address",
       "eventIsRequireLable": false,
       "eventDescription": ""
@@ -256,7 +355,7 @@
       "eventKey": "EventBasketRewards",
       "eventScreen": "Basket",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Rewards click",
+      "eventAction": "Basket rewards click",
       "eventLabel": "Apply Rewards",
       "eventIsRequireLable": false,
       "eventDescription": ""
@@ -265,7 +364,7 @@
       "eventKey": "EventBasketEditRewards",
       "eventScreen": "Basket",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Rewards edit Click",
+      "eventAction": "Basket rewards edit Click",
       "eventLabel": "Edit Rewards",
       "eventIsRequireLable": false,
       "eventDescription": ""
@@ -274,44 +373,8 @@
       "eventKey": "EventBasketAddMoreItems",
       "eventScreen": "Basket",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Add more click",
+      "eventAction": "Basket add more click",
       "eventLabel": "ADD MORE ITEMS",
-      "eventIsRequireLable": false,
-      "eventDescription": ""
-    },
-    {
-      "eventKey": "EventBasketCheckout",
-      "eventScreen": "Basket",
-      "eventCategory": "OnlineOrder",
-      "eventAction": "Checkout click",
-      "eventLabel": "CHECKOUT",
-      "eventIsRequireLable": false,
-      "eventDescription": ""
-    },
-    {
-      "eventKey": "EventBasketOrderTypeApply",
-      "eventScreen": "Basket",
-      "eventCategory": "OnlineOrder",
-      "eventAction": "Order type apply click",
-      "eventLabel": "",
-      "eventIsRequireLable": true,
-      "eventDescription": "Respective order type DELIVERY/CURBSIDE/PICKUP"
-    },
-    {
-      "eventKey": "EventBasketWhenApply",
-      "eventScreen": "Basket",
-      "eventCategory": "OnlineOrder",
-      "eventAction": "When apply click",
-      "eventLabel": "LATER",
-      "eventIsRequireLable": false,
-      "eventDescription": ""
-    },
-    {
-      "eventKey": "EventBasketStartOrder",
-      "eventScreen": "Basket",
-      "eventCategory": "OnlineOrder",
-      "eventAction": "Start order click",
-      "eventLabel": "START ORDER",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -320,7 +383,25 @@
       "eventScreen": "Basket",
       "eventCategory": "OnlineOrder",
       "eventAction": "Basket item delete click",
-      "eventLabel": "DELETE",
+      "eventLabel": "",
+      "eventIsRequireLable": true,
+      "eventDescription": "Respective basket item name"
+    },
+    {
+      "eventKey": "EventBasketCheckout",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Basket checkout click",
+      "eventLabel": "CHECKOUT",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventBasketStartOrder",
+      "eventScreen": "Basket",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Basket start order click",
+      "eventLabel": "START ORDER",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -329,7 +410,16 @@
       "eventScreen": "Vehicle Information",
       "eventCategory": "OnlineOrder",
       "eventAction": "Vehicle information continue click",
-      "eventLabel": "CONTINUE",
+      "eventLabel": "Vehicle information continue",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventVehicleSkip",
+      "eventScreen": "Vehicle Information",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Vehicle information skip click",
+      "eventLabel": "Skip this step",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -338,7 +428,7 @@
       "eventScreen": "Phone Number",
       "eventCategory": "OnlineOrder",
       "eventAction": "Phone number continue click",
-      "eventLabel": "CONTINUE",
+      "eventLabel": "Phone number continue click",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -347,7 +437,7 @@
       "eventScreen": "Guest Info",
       "eventCategory": "OnlineOrder",
       "eventAction": "Guest info continue click",
-      "eventLabel": "CONTINUE",
+      "eventLabel": "Guest info continue",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -365,7 +455,7 @@
       "eventScreen": "Payment Option",
       "eventCategory": "OnlineOrder",
       "eventAction": "Payment option continue click",
-      "eventLabel": "CONTINUE",
+      "eventLabel": "Payment option continue",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -374,16 +464,7 @@
       "eventScreen": "Card Details",
       "eventCategory": "OnlineOrder",
       "eventAction": "Add new card click",
-      "eventLabel": "ADD NEW CARD",
-      "eventIsRequireLable": false,
-      "eventDescription": ""
-    },
-    {
-      "eventKey": "EventCardDetailsPay",
-      "eventScreen": "Card Details",
-      "eventCategory": "OnlineOrder",
-      "eventAction": "Pay click",
-      "eventLabel": "PAY",
+      "eventLabel": "Add New Card",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -391,8 +472,17 @@
       "eventKey": "EventCardDetailsAddNewCardContinue",
       "eventScreen": "Card Details",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Add new card click",
-      "eventLabel": "CONTINUE",
+      "eventAction": "Add new card continue click",
+      "eventLabel": "Add new card continue",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventCardDetailsPay",
+      "eventScreen": "Card Details",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Card details pay click",
+      "eventLabel": "PAY",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
@@ -400,13 +490,13 @@
       "eventKey": "EventPlaceOrderAddTip",
       "eventScreen": "Place Order",
       "eventCategory": "OnlineOrder",
-      "eventAction": "Add tip click",
+      "eventAction": "Place order add tip click",
       "eventLabel": "ADD TIP",
       "eventIsRequireLable": false,
       "eventDescription": ""
     },
     {
-      "eventKey": "EventPlaceOrderContinue",
+      "eventKey": "EventPlaceOrder",
       "eventScreen": "Place Order",
       "eventCategory": "OnlineOrder",
       "eventAction": "Place order click",
@@ -424,20 +514,38 @@
       "eventDescription": "Respective store name"
     },
     {
-      "eventKey": "EventOrderPlacedFeedback",
-      "eventScreen": "Order Placed",
-      "eventCategory": "OnlineOrder",
-      "eventAction": "Order placed feedback click",
-      "eventLabel": "Give Direct Feedback",
-      "eventIsRequireLable": false,
-      "eventDescription": ""
-    },
-    {
       "eventKey": "EventOrderPlacedReviewUs",
       "eventScreen": "Order Placed",
       "eventCategory": "OnlineOrder",
       "eventAction": "Order placed review us click",
-      "eventLabel": "Review Us",
+      "eventLabel": "Review us in the app store/play store",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventOrderPlacedFeedback",
+      "eventScreen": "Order Placed",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Order placed feedback click",
+      "eventLabel": "Give direct feedback",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventOrderPlacedEmailReceipt",
+      "eventScreen": "Order Placed",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Order placed email receipt click",
+      "eventLabel": "Email Receipt",
+      "eventIsRequireLable": false,
+      "eventDescription": ""
+    },
+    {
+      "eventKey": "EventOrderPlacedCurbsideCheckIn",
+      "eventScreen": "Order Placed",
+      "eventCategory": "OnlineOrder",
+      "eventAction": "Order placed curbside checkin",
+      "eventLabel": "CHECK-IN",
       "eventIsRequireLable": false,
       "eventDescription": ""
     }
